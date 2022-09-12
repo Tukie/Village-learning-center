@@ -22,36 +22,21 @@
             background-image: url("https://www.forfur.com/img/I78/t_7708_15789023331406471764.jpg");
 
             /* Add the blur effect */
-            filter: blur(5px);
-            -webkit-filter: blur(5px);
+           /* filter: blur(5px);
+            -webkit-filter: blur(5px);*/
 
             /* Full height */
-            height: 99vh;
+            height: 100vh;
 
             /* Center and scale the image nicely */
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            /*background-size: 100%;*/
+            
             background-attachment: fixed;
         }
 
         /* Position text in the middle of the page/image */
-        .bg-text {
-            background-color: rgb(0, 0, 0);
-            /* Fallback color */
-            background-color: rgba(0, 0, 0, 0);
-            /* Black w/opacity/see-through */
-            position: absolute;
-            top: 60%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 2;
-            text-align: center;
-            width: 100%;
-        }
-
-
 
         .bg-m1 {
             background-color: #51AF5B !important;
@@ -87,9 +72,27 @@
 
         }
 
+        input, select, textarea{
+            color: #51AF5B!important;
+        }
+
+        .font-respons{
+                font-size: 12vw;
+                
+            }
+
+
+        ::placeholder{
+            color: #51AF5B!important;
+        }
+
         @media only screen and (min-width: 576px) {
             .custom1 {
                 width: 640px !important;
+            }
+            .font-respons{
+                font-size: 5rem;
+                
             }
 
         }
@@ -99,20 +102,19 @@
                 overflow: visible;
 
             }
-
+          
         }
 
 
-        ::placeholder {
-            color: #51AF5B !important;
-        }
+    
     </style>
+
 
 </head>
 
 <body>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-m1 sticky-top p-3 fw-bold">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-m1 sticky-top p-3 fw-bold ">
         <div class="container-sm">
             <a class="fw-bold btn text-light">LOGO</a>
             <!-- <img src="" alt="" width="30" height="24"> -->
@@ -144,16 +146,15 @@
 
     <!-- Banner -->
     <section>
-        <div class="bg-image"></div>
-        <div class="bg-text">
-            <h1 class="fw-bold text-light py-5" style="font-size: 6vw; ">ศูนย์เรียนรู้ชุมชนจังหวัดบึงกาฬ</h1>
-            <center>
-                <p class="text-light w-50 pb-5">Lorem Ipsum is simply dummy text of the printing and typesetting
+        <div class="bg-image">
+        <div class="d-flex justify-content-center align-items-center h-75">
+        <div class=" p-2 text-center">
+            <h1 class="fw-bold text-light font-respons py-5" style="text-shadow: 0px 2px 2px  rgb(0, 0, 0, 0.5); ">ศูนย์เรียนรู้ชุมชนจังหวัดบึงกาฬ</h1>
+                <p class="text-light w-50 m-auto pb-5">Lorem Ipsum is simply dummy text of the printing and typesetting
                     industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley</p>
-            </center>
-            <div class="container-fluid py-5 custom1">
+                    Lorem Ipsum has been the industry's</p>
+            
+            <div class="container-fluid custom1 ">
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="btn btn-lg btn-light fw-bold m-1 px-4" style="border-radius: 100px;"><i
@@ -172,13 +173,10 @@
             </div>
         </div>
         </div>
+    </div>
         </div>
-
-
-
         </div>
-
-        </div>
+       
     </section>
 
     <!-- ศูนย์เรียนรู้ชุมชน -->
@@ -262,7 +260,7 @@
                     <div class="col-sm-10 py-2">
                         <input type="text" class="form-control fw-bold rounded-5 p-3 border-success"
                             aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
-                            placeholder="&#xf002;ค้นหาศูนย์เรียนรู้">
+                            placeholder="ค้นหาศูนย์เรียนรู้">
                     </div>
                     <div class="col-sm-2 py-2">
                         <button class="btn btn-light bg-m1 px-5 py-3 rounded-pill text-light fw-bold ">
@@ -364,7 +362,7 @@
                                         class="img-fluid h-100 w-100" style=" 
                                         object-fit: cover;
                                         object-position: center;
-                                        height: 100%;
+                            
                                         " alt="...">
                                 </div>
                                 <div class="col-xl-6" style="height:260px;">
@@ -784,8 +782,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
