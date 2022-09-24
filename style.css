@@ -37,6 +37,10 @@
     background-color: #DAA51F;
 }
 
+.bg-m4 {
+    background-color: #aaebb0 !important;
+}
+
 .text-m1 {
     color: #51AF5B;
 }
@@ -94,3 +98,9 @@ textarea {
     }
 
 }
+
+.very-round{
+    border-radius: 1000px;
+    border: none;
+}
+
