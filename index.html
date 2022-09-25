@@ -18,7 +18,7 @@
     <!-- nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-m1 sticky-top p-3 fw-bold ">
         <div class="container-sm">
-            <a class="fw-bold btn bg-m3 text-light">LOGO</a>
+            <a href="index.html" class="fw-bold btn bg-m3 text-light">LOGO</a>
             <!-- <img src="" alt="" width="30" height="24"> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,29 +48,35 @@
                                 class="fa-solid fa-address-book me-2"></i>เกี่ยวกับเรา</a>
                     </li>
                 </ul>
-                <div class="dropdown">
-                    <a class="btn btn-light d-flex justify-content-center"
+
+                <div class="dropdown-center">
+                    <button class="btn btn-light btn-lg d-flex justify-content-center"
                         style="width: 35px; height:35px; border-radius: 100%;" href="#" role="button"
                         id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-user text-m1 fs-5"></i>
-                    </a>
+                    </button>
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="login_from.html"><i
-                                    class="fa-solid fa-arrow-right-to-bracket me-2"></i>ลงชื่อเข้าใช้</a></li>
-                        <li><a class="dropdown-item" href="signup_from.html"><i
-                                    class="fa-solid fa-user-plus me-2"></i>สมัครสมาชิก</a>
-                        </li>
+                        <div class="d-flex flex-column align-items-center py-4">
+                            <img src="https://www.ccair.org/wp-content/uploads/2015/04/wallpaper-for-facebook-profile-photo-e1440624505574.jpg"
+                                class="img-fluid rounded-circle" alt="" style="width: 50px;">
+                            <h5 class="mt-2">User</h5>
+                            <div class="mx-3">
+                                <a href="login_from.html" class="btn bg-m1 text-light w-100 mt-2"><i
+                                        class="fa-solid fa-arrow-right-to-bracket me-2"></i>ลงชื่อเข้าใช้</a>
+                                <a href="signup_from.html" class="btn bg-m1 text-light w-100 mt-2"><i
+                                        class="fa-solid fa-user-plus me-2"></i>สมัครสมาชิก</a>
+                            </div>
+                        </div>
 
                     </ul>
                 </div>
-            </div>
 
+            </div>
         </div>
     </nav>
 
     <!-- Banner -->
-
     <section>
         <div class="bg-image">
             <div class="d-flex justify-content-center align-items-center h-75">
@@ -173,7 +179,10 @@
                             <div class="d-flex justify-content-center align-items-center bg-light btn btn-light btn-lg rounded-5 mx-2 my-4"
                                 style="width: 250px; height: 65px;">อ.บุ่งคล้า x ศูนย์</div>
                         </div>
-                        <iframe class="mt-4 rounded-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3787.8533240307643!2d103.64219121420089!3d18.308314680411115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313b29fc5c007579%3A0x13a222bbfe9d0f2b!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lij4Liy4LiK4Lig4Lix4LiO4Lit4Li44LiU4Lij4LiY4Liy4LiZ4Li1IOC4qOC4ueC4meC4ouC5jOC4geC4suC4o-C4qOC4tuC4geC4qeC4suC4muC4tuC4h-C4geC4suC4rA!5e0!3m2!1sth!2sth!4v1664032448332!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="mt-4 rounded-5"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3787.8533240307643!2d103.64219121420089!3d18.308314680411115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313b29fc5c007579%3A0x13a222bbfe9d0f2b!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lij4Liy4LiK4Lig4Lix4LiO4Lit4Li44LiU4Lij4LiY4Liy4LiZ4Li1IOC4qOC4ueC4meC4ouC5jOC4geC4suC4o-C4qOC4tuC4geC4qeC4suC4muC4tuC4h-C4geC4suC4rA!5e0!3m2!1sth!2sth!4v1664032448332!5m2!1sth!2sth"
+                            width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </center>
             </div>
         </div>
@@ -247,7 +256,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m1 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m1 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m1 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -274,7 +284,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m1 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m1 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m1 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -301,7 +312,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m1 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m1 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m1 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -328,7 +340,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m1 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m1 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m1 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -411,7 +424,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m2 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m2 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m2 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -438,7 +452,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m2 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m2 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m2 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -465,7 +480,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m2 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m2 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m2 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -492,7 +508,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m2 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m2 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m2 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -573,7 +590,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m3 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m3 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m3 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -600,7 +618,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m3 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m3 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m3 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -627,7 +646,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m3 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m3 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m3 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
@@ -654,7 +674,8 @@
                                         <div class="d-flex justify-content-between  align-items-center py-2">
                                             <div><i class="fa-solid fa-location-dot text-m3 me-2"></i><a>ตำบล.....</a>
                                             </div>
-                                            <a class="btn btn-light text-light bg-m3 rounded-5" href="detail_page.html">ดูเพิ่มเติม</a>
+                                            <a class="btn btn-light text-light bg-m3 rounded-5"
+                                                href="detail_page.html">ดูเพิ่มเติม</a>
                                         </div>
                                     </div>
                                 </div>
